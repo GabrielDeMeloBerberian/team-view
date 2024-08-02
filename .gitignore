@@ -1,0 +1,5 @@
+.gitignore
+*.json
+*.txt
+.DS_Store
+.idea
