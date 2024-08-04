@@ -1,3 +1,8 @@
+# This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+#
+# Author: Gabriel De Melo Berberian
+
 import json
 import argparse
 from print_tree import to_tree
@@ -12,7 +17,7 @@ def main(
         keep_responsible,
         keep_collaborators,
         keep_channels):
-    with open(input_path, "r") as infile:
+    with open(input_path, "r", encoding='utf-8') as infile:
         data = json.load(infile)
 
     # Process JSON to remove specified attributes
@@ -26,7 +31,7 @@ def main(
     # Parse JSON to tree format
     result = to_tree(data)
 
-    with open(output_path, "w") as outfile:
+    with open(output_path, "w", encoding='utf-8') as outfile:
         for line in result:
             outfile.write(line + "\n")
 
