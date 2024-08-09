@@ -1,6 +1,10 @@
 .gitignore
 *.json
+*.html
 *.txt
 .DS_Store
 .idea
 __pycache__/
+!/resource/input/*
+!/resource/output/*
+!requirements.txt

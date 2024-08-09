@@ -1,0 +1,45 @@
+└── Team View
+    ├── mission
+    │   └── Organize team views
+    ├── responsibilities
+    │   ├── Planning
+    │   ├── Execution
+    ├── responsible
+    │   └── Gabriel Berberian
+    ├── collaborators
+    │   ├── Gabriel Berberian
+    │   ├── Kate Brown
+    ├── channels
+    │   ├── Email: contact@teamview.com
+    │   ├── Slack: #teamview
+    │   │   └── Channel to talk about Team View
+    └── divisions
+        ├── Innovation Team
+        │   ├── mission
+        │   │   └── Plan new features
+        │   ├── responsible
+        │   │   └── Jade Green
+        │   ├── responsibilities
+        │   │   ├── Business Requirements Documents (BRD)
+        │   ├── collaborators
+        │   │   ├── Jade Green
+        │   │   ├── Layla Wood
+        │   ├── channels
+        │   │   ├── Email: innvovation@teamview.com
+        │   │   └── Slack: #innovation
+        │   │       └── Channel to talk about innovation
+        └── Engineering Team
+            ├── mission
+            │   └── Implement features and improvements
+            ├── responsibilities
+            │   ├── Team View software
+            │   ├── Technical Specification Document (TSD)
+            ├── responsible
+            │   └── Quica Black
+            ├── collaborators
+            │   ├── Quica Black
+            │   ├── Luna Yang
+            └── channels
+                ├── Email: engineering@teamview.com
+                └── Slack: #engineering
+                    └── Channel to talk about engineering
